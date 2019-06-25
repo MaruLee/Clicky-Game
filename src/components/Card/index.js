@@ -6,7 +6,7 @@ class Card extends React.Component {
     };
 
     passMemeID = () => {
-        this.props.onMemeelect(this.state.memeID);
+        this.props.onMemeSelect(this.state.memeID);
         this.setState({ memeID : Math.floor(Math.random() * 57) + 1 });
     };
 
