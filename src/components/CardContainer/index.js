@@ -21,7 +21,7 @@ class CardContainer extends React.Component {
             if (this.state.highScore < this.state.currentScore){
                 this.setState({ highScore : this.state.currentScore});
             }
-            this.setState({ statusMessage : "You lost!" });
+            this.setState({ statusMessage : "Sorry, you lost!" });
             this.setState({ memeArray: [] });
             this.setState({ currentScore : 0 });
         }

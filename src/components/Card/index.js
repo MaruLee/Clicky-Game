@@ -17,7 +17,7 @@ class Card extends React.Component {
                     <img style={{ width:"100%"}} 
                         src={"./images/"+this.state.memeID+".jpg"} 
                         data-memeid={this.state.memeID}
-                        onClick = {this.passmemeID}
+                        onClick = {this.passMemeID}
                     >                   
                     </img>
                 </div>
@@ -27,5 +27,7 @@ class Card extends React.Component {
 }
 
 export default Card;
+
+
 
 
